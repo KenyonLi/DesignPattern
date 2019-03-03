@@ -1,4 +1,6 @@
-﻿using System;
+﻿using ObserverPattern.Observer;
+using ObserverPattern.Subject;
+using System;
 
 namespace ObserverPattern
 {
@@ -20,10 +22,25 @@ namespace ObserverPattern
             ，所有依赖于它的对象都得到通知并自动更新
                          ——《设计模式》GoF
 
+            Observer 模式的几个要点
+                使用面向对象的抽象，Observer模式使得我们可以独立地改变目标与观察者，
+           从而使二者之间的依赖关系达致松耦合。
+               目标发送通知时，无需指定观察者，通知（可以携带通知信息作为参数
+               ）会自动传播。观察者自己决定 是否需要订阅通知，目标对象对此一无所知。
+
+            在C#的event中，委托充当了抽象的Observer接口，而提供事件的对象充当了目标对象。
+            委托是比抽象Oberver接口更为松耦合的设计。
+             
              */
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            //订阅
+
+            BankAccount subject = new BankAccount();
+            subject.AddObserver(new Emailer());
+            subject.AddObserver(new Mobile());
+            subject.Withdraw(2323);
+            Console.ReadKey();
         }
     }
 }
