@@ -1,13 +1,9 @@
 ﻿namespace AbstractFactoryPattern
 {
     /// <summary>
-    /// 道路
+    /// 实现
     /// </summary>
-    public abstract class Road
+    public class ModernRoad : Road
     {
-
     }
-
-
-
 }
