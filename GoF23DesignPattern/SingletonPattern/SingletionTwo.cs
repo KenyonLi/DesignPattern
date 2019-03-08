@@ -10,11 +10,14 @@ namespace SingletonPattern
         private SingletionTwo() { }
     }
 
-    public class SingletonTree
+    public class SingletonTreet
     {
 
-        public static readonly SingletionThree Instance;
-        static SingletonTree() => Instance = new SingletonTree();
-        private SingletonTree() { }
+        public static readonly SingletonTreet Instance;
+        static SingletonTreet()
+        {
+            Instance = new SingletonTreet();
+        }
+        private SingletonTreet() { }
     }
 }

@@ -30,9 +30,6 @@ namespace SingletonPattern
             }
         }
 
-        public static implicit operator SingletionThree(SingletonTree v)
-        {
-            throw new NotImplementedException();
-        }
+       
     }
 }
