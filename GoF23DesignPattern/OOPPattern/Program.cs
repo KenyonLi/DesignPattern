@@ -111,6 +111,20 @@ namespace OOPPattern
             从范围来看：
                 -类模式处理类与子类的静静关系。
                 -对象模式处理对象间的动态关系。
+
+            =======================================================
+                有关创建性模式的讨论
+                     Singleton模式解决的实体对象个数的问题。
+                     除了Singleton之处，其他创建型模式解决的都是new所带来的
+                     耦合关系。
+
+                     Factory Method,Abstract Factory,Builder都需要一个额外
+                     的工厂类负责实例化“易变对象”，而Prototype则通过原型（一个特殊的
+                     工厂类）来克隆“易变对象”。
+
+                      如果遇到“易变类”，起初的设计通常从Factory Method开始，当遇到
+                      更多的复杂变化时，再考虑重构为其他三种工厂模式（Abstract Factory,Builder,Prototype）。
+
              */
         static void Main(string[] args) => Console.WriteLine("Hello World!");
     }
