@@ -4,15 +4,15 @@ namespace DecoratorPattern
 {
     //各种型号
     public class T50 : Tank
-    { 
+    {
         public override void Run()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("原Run");
         }
 
         public override void Shot()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("原Shot");
         }
     }
 }

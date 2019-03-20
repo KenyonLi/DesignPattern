@@ -45,15 +45,55 @@ namespace DecoratorPattern
             低？
 
 
+       意图（Intent）
+           动态地给一个对象增加一些额外的职责。就增加功能而言，Decorator
+           模式比生成子类更为灵活。
+                              ——《设计模式》GoF
+     ============================================================
+          Decortator模式的几个要点
+                 
+            通过采用组合、而非继承的手法，Decorator模式实现了在运行时
+            动态地扩展对象功能的能力，而且可以根据需要扩展多个功能。避免了
+            单独使用继承带来的“灵活性差”和“多子类衍生问题”。
+
+            Component类在Decorator模式中充当抽象接口的角色，不应该去实现具体的行为
+            。而且Decorator类对于Component类应该透明——换言之Component类无需知道Decorator类
+            ，Decorator类是从外部来扩展Component类的功能。
+
+            Decorator类在接口上表现为is-a Component的继承关系，即Decorator类继承了Component类所具有的接口。
+            但在实现上又表现为has-a Component组合关系，即Decorator类又使用了另外一个
+            为has-a Component的组合关系，即Decorator类又使用了另外一个Component类。
+            我们可以使用一个或者多个Decorator对象来“装饰”一个Component对象，且装饰后的
+            对象仍然是一个Component对象。
+
+            Decorator模式并非解决“多子类衍生的多继承”问题，Decorator模式
+            应用的要点在于解决“主体类在多个方向上的扩展功能”——是为装饰的含义。
 
              */
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-        }
+            Console.WriteLine("装饰器模式");
 
+            //Tank t50A = new T50A();
+            //t50A.Run();
+            //t50A.Shot();
+
+            //Tank t50AB = new T50AB();
+            //t50AB.Run();
+            //t50AB.Shot();
+            //装饰器
+
+            Tank t50A = new T50A();
+            Decorator decorator = new DecoratorA(t50A);
+            decorator = new DecoratorB(decorator);
+            decorator.Run();
+            decorator.Shot();
+
+            Console.ReadKey();
+        }
 
     }
 }
+
 
 

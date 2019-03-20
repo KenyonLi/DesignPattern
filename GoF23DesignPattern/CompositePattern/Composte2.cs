@@ -76,11 +76,11 @@ namespace CompositePattern.Composte2
     }
     public class App
     {
-        public static void Main()
-        {
-            IBox box = Factory.GetBox();
-            box.list = null;
-            box.Process();
-        }
+        //public static void Main()
+        //{
+        //    IBox box = Factory.GetBox();
+        //    box.list = null;
+        //    box.Process();
+        //}
     }
 }
