@@ -57,17 +57,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DecoratorPattern", "Decorat
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "11、Facade外观", "11、Facade外观", "{D29F4A8B-7DE2-4783-8469-2CF23363F0F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacadePattern", "FacadePattern\FacadePattern.csproj", "{7A9C95DE-9748-44FA-AB99-778BC33802D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FacadePattern", "FacadePattern\FacadePattern.csproj", "{7A9C95DE-9748-44FA-AB99-778BC33802D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubFacadePattern", "SubFacadePattern\SubFacadePattern.csproj", "{FBAEC551-CFA1-4EFC-962A-8B577D3CA682}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SubFacadePattern", "SubFacadePattern\SubFacadePattern.csproj", "{FBAEC551-CFA1-4EFC-962A-8B577D3CA682}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "12、Flyweight享元模式", "12、Flyweight享元模式", "{FFEABC22-E957-4B91-AEC7-54392AA00F0E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlyweightPattern", "FlyweightPattern\FlyweightPattern.csproj", "{359FA024-B7EF-4183-A824-F87BDF8E9132}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlyweightPattern", "FlyweightPattern\FlyweightPattern.csproj", "{359FA024-B7EF-4183-A824-F87BDF8E9132}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "13、ProxyPattern", "13、ProxyPattern", "{19D9A680-CA4C-41FD-BB84-E0C36A0D191B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyPattern", "ProxyPattern\ProxyPattern.csproj", "{95F61065-5D6D-4D50-A5A4-FF7EADC828CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProxyPattern", "ProxyPattern\ProxyPattern.csproj", "{95F61065-5D6D-4D50-A5A4-FF7EADC828CC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "14、TemplateMethod模板方法", "14、TemplateMethod模板方法", "{835F9DD3-087F-4453-9893-6EF0D1ABB08E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethodPattern", "TemplateMethodPattern\TemplateMethodPattern.csproj", "{3B950183-D35E-4A22-8200-12EA25107F48}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -143,6 +147,10 @@ Global
 		{95F61065-5D6D-4D50-A5A4-FF7EADC828CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95F61065-5D6D-4D50-A5A4-FF7EADC828CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95F61065-5D6D-4D50-A5A4-FF7EADC828CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B950183-D35E-4A22-8200-12EA25107F48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B950183-D35E-4A22-8200-12EA25107F48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B950183-D35E-4A22-8200-12EA25107F48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B950183-D35E-4A22-8200-12EA25107F48}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -177,6 +185,8 @@ Global
 		{359FA024-B7EF-4183-A824-F87BDF8E9132} = {FFEABC22-E957-4B91-AEC7-54392AA00F0E}
 		{19D9A680-CA4C-41FD-BB84-E0C36A0D191B} = {2386A5CC-2726-48A6-96F6-B298BC3A28A4}
 		{95F61065-5D6D-4D50-A5A4-FF7EADC828CC} = {19D9A680-CA4C-41FD-BB84-E0C36A0D191B}
+		{835F9DD3-087F-4453-9893-6EF0D1ABB08E} = {AC9CE066-C9F3-4B63-B00D-92F83747FCC9}
+		{3B950183-D35E-4A22-8200-12EA25107F48} = {835F9DD3-087F-4453-9893-6EF0D1ABB08E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E705DF4F-56E2-46F3-8AC4-58F7207555D1}
