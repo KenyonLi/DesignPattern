@@ -1,16 +1,16 @@
 ﻿namespace InterpreterPattern
 {
-    public class ShiExpression : Expression
+    public class GeExpression : Expression
     {
 
         public override string GetPostfix()
         {
-            return "十";
+            return "";
         }
 
         public override int Multiplier()
         {
-            return 10;
+            return 1;
         }
     }
 }

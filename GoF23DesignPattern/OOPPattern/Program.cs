@@ -5,6 +5,10 @@ namespace OOPPattern
     class Program
     {
         /*
+         *              C#面向对象设计模式纵横谈
+         * 
+         * 
+         * 
              1、面向对象设计模式与原则
 
                人是一个经验性的动物
