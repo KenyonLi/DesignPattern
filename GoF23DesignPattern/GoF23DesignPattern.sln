@@ -79,6 +79,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandPattern", "CommandPa
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "16、Interpreter 解释器模式", "16、Interpreter 解释器模式", "{9AB443F2-62CE-4B0A-95FC-2C16431A04B1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterpreterPattern", "InterpreterPattern\InterpreterPattern.csproj", "{FEB1ADB0-FCE3-4E2E-9041-541F9724A12A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -161,6 +163,10 @@ Global
 		{BA9A19C3-AF79-4E0F-9DBF-03AD17AC8A8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA9A19C3-AF79-4E0F-9DBF-03AD17AC8A8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA9A19C3-AF79-4E0F-9DBF-03AD17AC8A8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEB1ADB0-FCE3-4E2E-9041-541F9724A12A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEB1ADB0-FCE3-4E2E-9041-541F9724A12A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEB1ADB0-FCE3-4E2E-9041-541F9724A12A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEB1ADB0-FCE3-4E2E-9041-541F9724A12A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -200,6 +206,7 @@ Global
 		{60279EBF-58DC-49EC-8C25-F22DBBC98E29} = {AC9CE066-C9F3-4B63-B00D-92F83747FCC9}
 		{BA9A19C3-AF79-4E0F-9DBF-03AD17AC8A8F} = {60279EBF-58DC-49EC-8C25-F22DBBC98E29}
 		{9AB443F2-62CE-4B0A-95FC-2C16431A04B1} = {AC9CE066-C9F3-4B63-B00D-92F83747FCC9}
+		{FEB1ADB0-FCE3-4E2E-9041-541F9724A12A} = {9AB443F2-62CE-4B0A-95FC-2C16431A04B1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E705DF4F-56E2-46F3-8AC4-58F7207555D1}
