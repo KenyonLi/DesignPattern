@@ -89,6 +89,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "18、Iterator 迭代器", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IteratorPatter", "IteratorPatter\IteratorPatter.csproj", "{425C85D0-3CD3-43D3-881A-5B016451A07D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "20、Chain of Responsibility职责链接模式", "20、Chain of Responsibility职责链接模式", "{D026578E-C787-4B6B-86E4-26FE5B26807F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibilityPattern", "ChainOfResponsibilityPattern\ChainOfResponsibilityPattern.csproj", "{10D5A1DC-8E48-4876-90E5-D9DCAEBD99D3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -183,6 +187,10 @@ Global
 		{425C85D0-3CD3-43D3-881A-5B016451A07D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{425C85D0-3CD3-43D3-881A-5B016451A07D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{425C85D0-3CD3-43D3-881A-5B016451A07D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10D5A1DC-8E48-4876-90E5-D9DCAEBD99D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10D5A1DC-8E48-4876-90E5-D9DCAEBD99D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10D5A1DC-8E48-4876-90E5-D9DCAEBD99D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10D5A1DC-8E48-4876-90E5-D9DCAEBD99D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -227,6 +235,8 @@ Global
 		{6A3B4256-956D-41A0-99DB-2A6CCFA17407} = {C186C935-96F9-4CB1-BE8D-CDD0311F77C4}
 		{EEB9BAE1-29C0-4426-ABE5-C1D8718D0393} = {AC9CE066-C9F3-4B63-B00D-92F83747FCC9}
 		{425C85D0-3CD3-43D3-881A-5B016451A07D} = {EEB9BAE1-29C0-4426-ABE5-C1D8718D0393}
+		{D026578E-C787-4B6B-86E4-26FE5B26807F} = {AC9CE066-C9F3-4B63-B00D-92F83747FCC9}
+		{10D5A1DC-8E48-4876-90E5-D9DCAEBD99D3} = {D026578E-C787-4B6B-86E4-26FE5B26807F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E705DF4F-56E2-46F3-8AC4-58F7207555D1}
