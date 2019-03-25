@@ -103,13 +103,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "24、Visitor访问者模式
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4、设计模式总结", "4、设计模式总结", "{13B37C0F-5AE3-46E0-8F98-FC69FB691322}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MementoPattern", "MementoPattern\MementoPattern.csproj", "{11D3853B-ACD3-49BA-8BB6-398EEC77A8B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MementoPattern", "MementoPattern\MementoPattern.csproj", "{11D3853B-ACD3-49BA-8BB6-398EEC77A8B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatePattern", "StatePattern\StatePattern.csproj", "{B530ACF4-3F2B-41DB-8CFA-CE6938D50996}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatePattern", "StatePattern\StatePattern.csproj", "{B530ACF4-3F2B-41DB-8CFA-CE6938D50996}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StategyPattern", "StategyPattern\StategyPattern.csproj", "{BF8BC3C3-95CC-4F84-AFA7-B3C897D1E0C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StategyPattern", "StategyPattern\StategyPattern.csproj", "{BF8BC3C3-95CC-4F84-AFA7-B3C897D1E0C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisitorPattern", "VisitorPattern\VisitorPattern.csproj", "{5AB4EC3B-09DF-470F-9321-F4609CC68676}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VisitorPattern", "VisitorPattern\VisitorPattern.csproj", "{5AB4EC3B-09DF-470F-9321-F4609CC68676}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatternSummary", "DesignPatternSummary\DesignPatternSummary.csproj", "{E4462DF7-050F-4CDA-B101-A7C25DAAFC00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileSplitterTools", "FileSplitterTools\FileSplitterTools.csproj", "{8190C4F0-777D-4D78-8037-7C17C17CA604}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileSplitterLibrary", "FileSplitterLibrary\FileSplitterLibrary.csproj", "{F1846A8B-08E9-4642-8910-C9FB6424973B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -225,6 +231,18 @@ Global
 		{5AB4EC3B-09DF-470F-9321-F4609CC68676}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5AB4EC3B-09DF-470F-9321-F4609CC68676}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5AB4EC3B-09DF-470F-9321-F4609CC68676}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4462DF7-050F-4CDA-B101-A7C25DAAFC00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4462DF7-050F-4CDA-B101-A7C25DAAFC00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4462DF7-050F-4CDA-B101-A7C25DAAFC00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4462DF7-050F-4CDA-B101-A7C25DAAFC00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8190C4F0-777D-4D78-8037-7C17C17CA604}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8190C4F0-777D-4D78-8037-7C17C17CA604}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8190C4F0-777D-4D78-8037-7C17C17CA604}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8190C4F0-777D-4D78-8037-7C17C17CA604}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1846A8B-08E9-4642-8910-C9FB6424973B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1846A8B-08E9-4642-8910-C9FB6424973B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1846A8B-08E9-4642-8910-C9FB6424973B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1846A8B-08E9-4642-8910-C9FB6424973B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -279,6 +297,9 @@ Global
 		{B530ACF4-3F2B-41DB-8CFA-CE6938D50996} = {C5C9CDBC-4EBE-4C9E-89F9-CE244963DD04}
 		{BF8BC3C3-95CC-4F84-AFA7-B3C897D1E0C9} = {EF9C7921-CEE7-458B-BF57-F9F8BFDA4531}
 		{5AB4EC3B-09DF-470F-9321-F4609CC68676} = {17949EBD-96C7-4435-A080-978148D4F2B1}
+		{E4462DF7-050F-4CDA-B101-A7C25DAAFC00} = {13B37C0F-5AE3-46E0-8F98-FC69FB691322}
+		{8190C4F0-777D-4D78-8037-7C17C17CA604} = {13B37C0F-5AE3-46E0-8F98-FC69FB691322}
+		{F1846A8B-08E9-4642-8910-C9FB6424973B} = {13B37C0F-5AE3-46E0-8F98-FC69FB691322}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E705DF4F-56E2-46F3-8AC4-58F7207555D1}
