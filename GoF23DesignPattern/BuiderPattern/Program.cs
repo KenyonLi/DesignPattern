@@ -25,7 +25,7 @@ namespace BuiderPattern
          
          
          =====================================================
-            Builder模式的几人要点
+            Builder模式的几个要点
                 Builder 模式主要用于“分步骤构建一个复杂的对象”。在其中“分步骤”
                 是一个稳定的算法，而复杂对象的各个部分经常变化。
 
@@ -41,7 +41,7 @@ namespace BuiderPattern
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Builder Paatern");
             //可以根据 反射来创建对象实例
             AbstractHouse house = GameManager.CreateHouse(new RomanBuilder());
 
